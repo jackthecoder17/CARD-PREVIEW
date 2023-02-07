@@ -122,6 +122,7 @@ border-top-right-radius: 10px;
     text-decoration: line-through;
 }
 button{
+    cursor: pointer;
     font-family: 'Montserrat',sans-serif;
     font-weight: 700;
     color: var(--white);
@@ -135,6 +136,10 @@ button{
     border: none;
     background-color: var(--Dark-Cyan);
     margin-bottom: 25px;
+}
+button:hover{
+    opacity: 0.7;
+    transition: 0.2s ease-in;
 }
 @media screen and (max-width:780px) {
     .card-info{
